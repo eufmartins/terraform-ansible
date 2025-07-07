@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfvars.json
+*.tfplan
+crash.log
+
+# Ansible - chaves privadas e públicas
+*.pem
+*.pub
+IaC-*
+
+# VSCode e sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Arquivos zip
+*.zip
